@@ -1,0 +1,77 @@
+body {
+  width: 800px;
+  margin: 0% 40%;
+  align-items: center;
+}
+.nav {
+  background-color: rgb(52, 50, 50);
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  /* height: 5%; */
+  justify-content: space-around;
+  align-items: center;
+  margin: 0% 8%;
+}
+input {
+  width: 40%;
+  height: 2%;
+}
+button {
+  background-color: blueviolet;
+  color: white;
+  box-shadow: 10px 5px solid black;
+}
+.yellow {
+  background-color: rgb(233, 201, 83);
+  width: 90%;
+  height: 10%;
+  margin-top: 20%;
+}
+#green {
+  background-color: rgb(138, 185, 66);
+  width: 80%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+}
+.word h1 {
+  margin-bottom: -4%;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  flex: 1 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid black;
+  margin: 3% 3% 3% 0%;
+  padding: 2%;
+}
+.word h1,
+p {
+  margin: 0%;
+}
+.dif {
+  padding: 5%;
+  font-size: 15px;
+}
+.smallCard {
+  flex: 2 40%;
+  font-size: 25px;
+
+  border: 2px solid black;
+  margin-top: 9%;
+  width: 100%;
+  padding: 10%;
+}
+b {
+  justify-items: flex-start;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}

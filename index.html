@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>Dojonary</h1>
+      <textarea name="Search" id="search" cols="40" rows="1">search</textarea>
+      <button onclick="status(this)" id="purple">Login</button>
+    </div>
+    <div class="main">
+      <div class="left">
+        <div class="card">
+          <div class="word">
+            <h1>ninja</h1>
+            <p><em>noun</em></p>
+            <p>Plural:ninjas</p>
+            <button onclick="likes()" class="yellow">13 likes</button>
+          </div>
+          <div class="dif">
+            <p>
+              A practitioner skilled in the <a href="##">Japanese</a> art of
+              <a href="#">ninjutsu</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="word">
+            <h1>ninja</h1>
+            <p><em>noun</em></p>
+            <p>Plural:ninjas</p>
+            <buttonm onclick="likes()" class="yellow">37 likes</button>
+          </div>
+          <div class="dif">
+            <p>
+              A <a href="##"> programmer</a> who breaks down prroblems with
+              <a href="#">zen</a>-like focus
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="smallCard">
+          <p>
+            Dojonary is <br />
+            defined by <b> YOU</b>
+          </p>
+          <button onclick="removed(this)" id="green">Add Definition</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
